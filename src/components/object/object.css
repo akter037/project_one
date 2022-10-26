@@ -1,0 +1,51 @@
+.object_back{
+    background-color: rgba(20, 20, 99, 0.97);
+    margin: 0;
+}
+.object_container{
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+    gap: 12.5%;
+    padding: 2rem;
+}
+.object_contain{
+  
+  padding: 1rem;
+  border-radius: 1rem;
+
+}
+.object_contain:hover {
+    background-color: var(--color-paimary);
+  padding: 1rem;
+  border-radius: 1rem;
+
+  color: rgb(40, 38, 38);
+
+}
+.object_container h2{
+    text-align: center;
+    margin-bottom: 2px;
+
+}
+.object_container h2:hover{
+   color: rgb(92, 94, 87);
+   padding: 1px;
+
+}
+.object_container p{
+    text-align: center;
+}
+.object_container p:hover{
+    color: rgb(40, 38, 38);
+}
+
+@media screen and (max-width:1024px) {
+
+}
+@media screen and (max-width:600px) {
+  .object_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  }

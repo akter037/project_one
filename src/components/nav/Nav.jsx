@@ -27,10 +27,10 @@ const Nav = () => {
       
       <button  className='mobile-menu-icon' 
       onClick={() => setIsMobile(!isMobile)}>
-    {isMobile ?(<ImCross/>
+    {isMobile ?(<ImCross size={20}/>
     
     ):(
-    <ImMenu/>
+    <ImMenu size={25}/>
     )}
      </button>
       
