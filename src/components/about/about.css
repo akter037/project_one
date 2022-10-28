@@ -25,3 +25,23 @@
     width: fit-content;
     height: 25rem; 
 }
+@media screen and (max-width:1024px) {
+
+}
+@media screen and (max-width:600px) {
+  
+.about_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+}
+.about_me{
+   
+    margin: 1.5rem ;
+}
+.about_me_image{
+    display: none;
+    
+}
+
+  }
