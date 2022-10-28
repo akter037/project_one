@@ -1,0 +1,27 @@
+.about_bg{
+    
+        background-color: rgba(189, 191, 192, 0.685);
+
+}
+.about_container{
+   display: grid;
+   grid-template-columns: 65% 35%;
+   overflow: hidden;
+}
+.about_me{
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    margin: 3rem 0 3rem 2.5rem;
+}
+.about_me h2{ 
+    color: black; 
+
+}
+.about_me p{ 
+    color: rgb(100, 99, 99); 
+
+}
+.about_me_image img{
+    width: fit-content;
+    height: 25rem; 
+}
