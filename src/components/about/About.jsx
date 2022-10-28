@@ -8,6 +8,11 @@ const About = () => {
       
       <div className="container about_container">
         <div className="about_me">
+        <div className="about_me_image_mobile">
+
+          <img src={ME} alt="me" />
+
+          </div>
              
            <h2> Concentrate on the essentials</h2>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, error quisquam dolor sunt voluptatum repellat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, totam</p>

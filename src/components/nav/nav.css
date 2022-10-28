@@ -30,7 +30,7 @@
 }
 .mb_display{
     display: flex;
-    justify-content: end;
+    justify-content:flex-end;
     gap:1rem;
     width: 100%;
     height: 4rem;
