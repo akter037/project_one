@@ -24,6 +24,7 @@
 .about_me_image img{
     width: fit-content;
     height: 25rem; 
+    
 }
 .about_me_image_mobile{
     display: none;
@@ -31,6 +32,17 @@
 
 
 @media screen and (max-width:1024px) {
+    .about_container{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        overflow: hidden;
+     }
+     .about_me{
+        padding: 2rem;
+        background-color: rgb(255, 255, 255);
+        margin: 1rem 0 1rem 0;
+    }
+   
 
 }
 @media screen and (max-width:600px) {
