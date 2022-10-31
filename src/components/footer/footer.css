@@ -20,7 +20,6 @@ article{
 
 .footer_container h3{
     color: aliceblue;
-    text-align: start;
 }
 .footer_link a{
     color: rgb(157, 153, 153);
@@ -49,14 +48,14 @@ article{
     margin:0 auto;
     text-align: center;
 }
-.contact_details h3{
-    text-align: center;
-}
-   
+
 .footer_container .logo{
    justify-content: center;
    text-align: start;
 }
- 
+.footer_link h3{
+    text-align: center;
+}
+   
     
   }
