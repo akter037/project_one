@@ -16,7 +16,7 @@ const About = () => {
              
            <h2> Concentrate on the essentials</h2>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, error quisquam dolor sunt voluptatum repellat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, totam</p>
-          <a  href="#contact"  className='btn btn-paimary'>Contact Us</a>
+          <a  href="#contact"  className='btn btn-paimary '>Contact Us</a>
         </div>
         <div className="about_me_image">
 

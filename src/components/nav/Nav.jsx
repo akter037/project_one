@@ -22,7 +22,7 @@ const Nav = () => {
       <a href="#" onClick={()=> setActiveNav('#')} className={activeNav=== '#'? 'active':' '}>Home</a>
       <a href="#service" onClick={()=> setActiveNav('#service')} className={activeNav=== '#service'? 'active':' '}>Service</a>
       <a href="#experience" onClick={()=> setActiveNav('#experience')} className={activeNav=== '#experience'? 'active':' '}>Resource</a>
-      <a href="http://akter037.github.io/myportfolio/" >Back Portfolio</a>
+      <a href="http://akter037.github.io/myportfolio/" >Portfolio</a>
       </div>
       
       

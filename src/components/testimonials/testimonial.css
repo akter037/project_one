@@ -1,0 +1,24 @@
+.client_say{
+    background-color: rgba(189, 191, 192, 0.685);
+}
+
+.testimonial_container h2{
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+.testimonial_options{
+    padding: 2rem;
+    
+}
+.options{
+ width: 70%;
+ background-color: #fff;
+ margin: 0 auto;
+ padding: 1.5rem;
+ 
+
+}
+.client_name{
+    margin-left: 55%;
+}

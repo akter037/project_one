@@ -43,7 +43,7 @@
 }
 .experience_contant:hover{
     border: 1px solid  rgb(38, 228, 228);
-    box-shadow: 0 0 14px rgb(145, 142, 142);
+    box-shadow:.4rem .4rem 1rem #ccc inset, -.4rem -.4rem 1rem #fff inset;
 }
 .button_experience a{
     margin-bottom: 2px;

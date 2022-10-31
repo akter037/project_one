@@ -62,7 +62,7 @@ const Experience = () => {
           
            <div className='button_experience'>
 
-   <a href="#" className='btn btn-paimary'> learn More</a>
+   <a href="#" className='btn btn-paimary btn_hover'> learn More</a>
    </div>
         
         </div>    

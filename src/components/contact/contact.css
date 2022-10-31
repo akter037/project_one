@@ -1,0 +1,71 @@
+.contact_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+.contact_about{
+padding: 2rem;
+margin-left: 2rem;
+
+}
+.contact_about h2{
+    color: black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 00.5rem;
+    background: transparent;
+    border:  2px solid rgba(57, 57, 57, 0.826);
+    resize: none;
+ 
+}
+.checkbox{
+    width: fit-content;
+}
+.checkbox_info{
+    display: flex;
+    gap: 1rem;
+}
+
+figure{
+    border: 1px solid #ccc;
+    text-align: center;
+   width: 60%;
+   height: 70%;
+   margin: 3.5rem auto;
+   margin-left: 1rem;
+}
+
+.contact_image img{
+    height: 83.5%;
+}
+figcaption{
+    background-color: #f7efef96;;
+}
+@media screen and (max-width:1024px) {
+   
+
+}
+@media screen and (max-width:600px) {
+  .contact_container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .contact_about{
+    margin-left: 0;
+  }
+    .contact_image{
+        display: none;
+       
+    }
+  }
